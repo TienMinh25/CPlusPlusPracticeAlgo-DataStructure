@@ -32,7 +32,7 @@ void Heapify(vector<int>& a, int n, int i) {
 }
 
 void HeapSort(vector<int>& a, int n) { // sap xep mang giam dan
-    //xay dung max-heap
+    //xay dung min-heap
     for (int i = n / 2 - 1; i >= 0; i--) {
         Heapify(a, n, i);
     }
